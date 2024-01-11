@@ -1,2 +1,2 @@
-# Capstone2
-Capstone 2 _ Airbnb Bangkok
+# Capstone2 - Airbnb Bangkok
+Penjelasan ada di readme.txt
