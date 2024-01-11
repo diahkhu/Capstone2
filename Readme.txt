@@ -33,7 +33,7 @@ Dalam proses ini di mulai dengan membuat copy dari dari dataset original nya
    df_clean = df.copy()
 
 1. Drop Kolom "Unnamed :", Kolom ini di hapus karena sudah ada indexing di dataset ini
-2. Cek duplicate data --> Tidak ada data duplicate di dataset ini
+2. Cek duplicate data --> ada 5 baris data duplicate di dataset ini
 3. Cek Price karena pada described data terdapat keanehan nilai min price yang bernilai '0' karena hampir tidak mungkin penyewaan property di Airbnb bernilai '0'
    o Menghitung jumlah listing per price untuk tau brp banyak listing yg memiliki nilai price = 0 --> terdapat 1 baris data dengan nilai price = 0
    o Cek kolom price dengan normalisasi Kolmogorov-Smirnov karena jumlah baris data >2000
